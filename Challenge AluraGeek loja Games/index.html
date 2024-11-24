@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Defasio AluraGeek Loja Produtos Games</title>
+  </head>
+  <body>
+    <!-- Cabecalho -->
+    <header class="area-topo">
+      <div class="logo">
+        <img src="imagens/coracao.png" alt="imagem coração" />
+        <img src="imagens/AluraGeek.png" alt="Logo AluraGeek" />
+      </div>
+    </header>
+
+    <!-- Container Principal -->
+    <main class="area-conteudo">
+      <section class="area-produtos">
+        <h1 class="titulo-produtos">MEUS PRODUTOS</h1>
+        <div class="caixa-produtos" data-produtos></div>
+          <!-- <div class="card">
+                  <div class="card-imagem">
+                    <img src="imagens/Stormtrooper.png" alt="" />
+                  </div>
+                  <h2 class="card-nome">Stormtrooper</h2>
+                  <div class="card-elementos-baixo">
+                    <p class="card-preco">R$ $ 60,00</p>
+                    <button class="card-lixeira">
+                      <img  src="imagens/lixeira.png" alt="" />
+                    </button>              
+                  </div>
+        </div> -->
+
+      <!-- Seção de adicionar produtos -->
+      </section>
+      <section class="area-formulario">
+          <h1 class="titulo-formulario">ADICIONAR PRODUTO</h1>
+      
+          <!-- Formulário para adicionar produtos -->
+          <form class="elementos-formulario" data-formulario>
+            
+              <input type="text" id="nome" name="nome" placeholder="nome..." data-nome>
+              <input type="text" id="preco" name="preco" placeholder="preço..." data-preco>
+              <input type="text" id="imagem" name="imagem" placeholder="imagem..." data-imagem>
+              <span class="mensagemErro" data-mensagem></span>
+              <div class="botoes-formulario">
+                <button class="botao-enviar" type="submit" id="botao">Enviar</button>
+                <button class="botao-limpar" type="reset" id="botao">Limpar</button>
+  
+            
+          </form>
+          
+      </section>
+    </main>
+
+      <!-- Rodapé -->
+    <footer class="area-rodape">
+      <div class="logo">
+        <img src="imagens/coracao.png" alt="imagem coração" />
+        <img src="imagens/AluraGeek.png" alt="Logo AluraGeek"/>
+      </div>
+        <p class="titulo-rodape">
+          Desenvolvido por Cristiano de Souza Gonçalves
+        </p>
+        <p class="sub-titulo-rodape">ALURA LATAM - 2024</p>
+      </div>
+  </footer>
+  <script src="js/controle/main.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "produtos": [
+    {
+      "nome": "Stormtrooper",
+      "preco": "50",
+      "imagem": "/imagens/Stormtrooper.png",
+      "id": 2
+    },
+    {
+      "nome": "carteira",
+      "preco": "21.00",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp",
+      "id": 5
+    },
+    {
+      "nome": "Batman",
+      "preco": "25",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_640262-MCO47330060660_092021-O.webp",
+      "id": 7
+    },
+    {
+      "nome": "Spider",
+      "preco": "21.00",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_620343-MLA45333647274_032021-O.webp",
+      "id": 8
+    },
+    {
+      "nome": "Stor",
+      "preco": "20.50",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+      "id": 9
+    },
+    {
+      "nome": "flash",
+      "preco": "21.00",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp",
+      "id": 10
+    }
+  ]
+}
